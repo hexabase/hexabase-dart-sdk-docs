@@ -115,17 +115,16 @@ await item.save();
 
 ### Download file content
 
-If you want to download file content, please use `get` method. It returns **multiple** HexabaseFile objects, even if you upload a file.
+When you download file content, please use `get` method. It returns **multiple** HexabaseFile objects, even if you upload a file.
 
 ```dart
 var pictures = item.get('picture') as List<HexabaseFile>;
 // data is Unit8List
-var data = await pictures[0].download();
+var data = await pictures.first.download();
 ```
 
 ### Delete file
 
 ```dart
-var picture = pictures[0];
-await pictures[0].delete();
+await pictures.first.delete();
 ```
