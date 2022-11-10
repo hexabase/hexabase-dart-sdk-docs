@@ -1,12 +1,12 @@
 module.exports = {
   title: 'Hexabase SDK',
   tagline: 'Dart/Flutter SDK for Hexabase API',
-  url: 'https://sdk-docs.hexabase.com',
+  url: 'https://hexabase.github.io',
   baseUrl: '/hexabase-dart-sdk-docs/',
   onBrokenLinks: 'ignore',
   favicon: 'img/favicon.ico',
   organizationName: 'hexabase', // Usually your GitHub org/user name.
-  projectName: 'hexabase-sdk-docs', // Usually your repo name.
+  projectName: 'hexabase-dart-sdk-docs', // Usually your repo name.
   themeConfig: {
     prism: {
       additionalLanguages: ['dart'],
