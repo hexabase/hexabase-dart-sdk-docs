@@ -5,6 +5,7 @@ module.exports = {
             'Hexabase/Installation', 
             'Hexabase/Configuration'],
         'Basic usage': [
+            'SDK/User',
             'SDK/Workspace',
             'SDK/Project',
             'SDK/Datastore',
